@@ -74,8 +74,6 @@ public class Field {
                     System.out.println("You missed!");
                     break;
                 }
-//                field[coordinates[0]][coordinates[1]].setFog(false);
-                //print();
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Error! You entered the wrong coordinates! Try again: ");
             }
